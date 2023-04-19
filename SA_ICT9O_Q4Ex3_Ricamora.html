@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>Arithmetic Operators</title>	
+</head>
+<div class="container" style="font-size: 2em;"></div>
+<body>
+	<h1 style="font-family:Times New Roman;color:white;"><span style="background-color:lightblue;">JavaScript Arithmetic Operators</span><h1>
+		<p><mark>num_1=10, num_2 = 5;</mark></p>
+		<ol type="1.">
+
+			<li>10 + 5 =  <strong id="p1"></strong></li>
+			<li>10 - 5 = 5 <strong id="p2"></strong></li>
+			<li>5 * 10 = 50 <strong id="p3"></strong></li>
+			<li>10 / 5 = 2 <strong id="p4"></strong></li>
+			<li>10 % 5 = 0 <strong id="p5"></strong></li>
+</ol>
+
+		<script>
+			let a=10, b=5;
+			let sum = a + b;
+				alert("The sum of two numbers: " + sum);
+			let difference = a - b;
+				alert("The difference of two numbers: " + difference);
+			let product = a * b;
+				alert("The product of two numbers: " + product)
+			let quotient = a / b;
+				alert("The quotient of two numbers: " + quotient)
+			let MOD	= a % b;
+				alert("The MOD of two numbers: " + MOD)
+
+				//variable declaration;assignment of values
+				document.getElementById("p1").innerHTML = a + b;
+				document.getElementbyId("p2").innerHTML = b - a;
+				document.getElementById("p3").innerHTML = a * b;
+				document.getElementbyId("p4").innerHTML = b / a;
+				document.getElementById("p5").innerHTML = a % 2;
+		
+		</script>
+</body>
+</div>
+</html>
